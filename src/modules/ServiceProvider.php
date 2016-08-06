@@ -2,6 +2,9 @@
 
 namespace Modules;
 
+use Setting,
+    View;
+
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {
 
@@ -16,6 +19,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
                 $this->loadViewsFrom(__DIR__ . '/' . $module . '/Views', $module);
             }
         }
+        view()->share('info', Setting::appInit());
     }
 
     public function register()

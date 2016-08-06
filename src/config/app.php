@@ -129,6 +129,7 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class,
+        App\Helper\Src\ServiceProviders\HelperServiceProviders::class,
         Modules\ServiceProvider::class
     ],
     /*
@@ -177,5 +178,6 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
         'Html' => Collective\Html\HtmlFacade::class,
         'Form' => Collective\Html\FormFacade::class,
+        'Setting' => App\Helper\Src\Facades\Settings::class
     ],
 ];

@@ -4,7 +4,8 @@ namespace Modules\Frontend\Controllers;
 
 use View,
     Html,
-    Form;
+    Form,
+    Setting;
 use Modules\Frontend\Models\DashboardModel;
 use App\Http\Controllers\Controller;
 
