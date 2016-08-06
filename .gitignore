@@ -1,0 +1,8 @@
+src/vendor
+src/node_modules
+src/public/storage
+src/public/uploads
+src/Homestead.yaml
+src/Homestead.json
+src/.env
+/nbproject
