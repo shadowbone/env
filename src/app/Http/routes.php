@@ -13,7 +13,3 @@
 
 Route::get('/', 'Foo\FooController@getIndex');
 
-
-Route::get('/theme-admin', function() {
-    return view('global.templete.admin.layout.master');
-});
