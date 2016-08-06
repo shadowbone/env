@@ -11,5 +11,5 @@
   |
  */
 
-Route::get('/', 'Foo\FooController@getIndex');
+//Route::get('/', 'Foo\FooController@getIndex');
 
