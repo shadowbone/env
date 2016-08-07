@@ -2,13 +2,6 @@
 
 Route::group(['namespace' => 'Modules\Frontend\Controllers'], function() {
     Route::get('/', 'DashboardController@getIndex');
-    Route::get('/create-user', function() {
-        $data = [
-            'name' => 'Ahay'
-        ];
-        App\Models\User::create($data);
-    });
-
     Route::group(['prefix' => 'sosmed'], function() {
         Route::get('/', function(SammyK\LaravelFacebookSdk\LaravelFacebookSdk $fb) {
             $login_url = $fb->getLoginUrl(['email']);
