@@ -2,7 +2,6 @@
 
 Route::group(['namespace' => 'Modules\Frontend\Controllers'], function() {
     Route::get('/', 'DashboardController@getIndex');
-
     Route::get('/create-user', function() {
         $data = [
             'name' => 'Ahay'

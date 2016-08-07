@@ -6,7 +6,6 @@
                     <div class="widget-title clearfix">
                         <h4>About Us</h4>
                         <div class="widget-title-block">
-
                         </div>
                     </div>			
                     <div class="textwidget">

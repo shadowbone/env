@@ -2,7 +2,6 @@
 <div id="header-wrapper">
     <!-- BEGIN #header-border -->
     <div id="header-border">
-
         <!-- BEGIN #header-top -->
         <div id="header-top" class="clearfix">
 

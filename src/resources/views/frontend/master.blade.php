@@ -15,7 +15,6 @@
         {!! Html::style('assets/frontend/css/colour.css') !!}
         {!! Html::script('assets/frontend/js/jquery.js') !!}
         {!! Html::script('assets/frontend/js/jquery-migrate.min.js') !!}
-
     </head>
 
     <!-- BEGIN body -->
