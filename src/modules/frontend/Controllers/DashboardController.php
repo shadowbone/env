@@ -12,7 +12,6 @@ use App\Http\Controllers\Controller;
 
 class DashboardController extends Controller
 {
-
     protected $_view = 'frontend::dashboard';
 
     public function __construct()
