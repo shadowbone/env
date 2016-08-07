@@ -10,7 +10,6 @@
             <ul class="slides slide-loader2">
                 <li><ul class="news-items">		
                         <li id="post-115" class="post-115 post type-post status-publish format-standard has-post-thumbnail hentry category-learning tag-college tag-education clearfix">
-
                             <div class="news-image">		
                                 <a href="#" rel="bookmark" title="Dasellus ac nibh urna donec ac urna">
                                     <img src="#" alt="" />					</a>
