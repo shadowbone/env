@@ -3,6 +3,7 @@
 namespace Modules\Frontend\Controllers;
 
 use View,
+    Auth,
     Html,
     Form,
     Setting;
@@ -21,7 +22,6 @@ class DashboardController extends Controller
 
     public function getIndex()
     {
-
         $this->data['infoUsers'] = DashboardModel::all();
         $this->data['title'] = 'Ini Judul';
         return view($this->_view . '/index', $this->data);
