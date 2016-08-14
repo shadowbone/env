@@ -7,7 +7,6 @@ use Setting,
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {
-
     public function boot()
     {
         $modules = config("module.modules");
