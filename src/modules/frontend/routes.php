@@ -13,6 +13,9 @@ Route::group(['namespace' => 'Modules\Frontend\Controllers'], function() {
         $login_url = $fb->getLoginUrl(['email']);
         echo '<a href="' . $login_url . '">Login with Facebook</a>';
     });
+    
+    
+    
     Route::get('/facebook/callback', function(SammyK\LaravelFacebookSdk\LaravelFacebookSdk $fb) {
 
         try {
